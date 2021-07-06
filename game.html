@@ -1,0 +1,24 @@
+<!doctype html>
+
+<head>
+    <title>canvas tutorial</title>
+</head>
+
+<body>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <script>
+        var canvas, canvasContext;
+
+        window.onload = function() {
+            canvas = document.getElementById('gameCanvas');
+            canvascontext = canvas.getContext('2d');
+
+            setInterval(mainloop, 1000 / 50);
+        }
+
+        function mainloop() {
+
+        }
+
+    </script>
+</body>
